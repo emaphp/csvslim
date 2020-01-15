@@ -283,7 +283,7 @@ func main() {
 		}
 
 		// Filter by id
-		if row > 0 && len(filterValues) > 0 {
+		if args.Filter != "" && len(filterValues) > 0 {
 			found := find(line[args.FilterCol], filterValues)
 
 			// If the value is not found, read the next one
