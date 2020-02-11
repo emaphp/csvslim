@@ -10,12 +10,20 @@ A small utility for manipulating CSV files.
  * Renaming columns.
  * Filtering rows.
 
-## Build
+## Building
 
 ```
- go get "github.com/alexflint/go-arg"
- go get "robpike.io/filter"
- go build csvslim.go
+ $ go build csvslim.go
+ # OR
+ $ make build
+```
+
+## Installing
+
+```
+ $ go install
+ # OR
+ $ make intall
 ```
 
 ## Usage
